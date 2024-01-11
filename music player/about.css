@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+    transition: box-shadow 0.3s ease; /* Add a smooth transition for box shadow */
+}
+
+.container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+h1 {
+    color: #1db954;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Optional: Style the links in a different color */
+a {
+    color: #1db954;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add a smooth transition for link color */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0f7c3f; 
+
+/* Floating Elements */
+.float-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both; /* Clear floats */
+}
